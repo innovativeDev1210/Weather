@@ -44,7 +44,7 @@ const InitialStack = () => {
 const HomeStack = () => {
   return (
     <Drawer.Navigator
-      useLegacyImplementation
+      // useLegacyImplementation
       drawerContent={() => <CustomDrawer />}
     >
       <Drawer.Screen 

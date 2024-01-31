@@ -15,13 +15,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jcj19991113.weatherapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFE142"
-      }
+      },
+      "package": "com.jcj19991113.weatherapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
